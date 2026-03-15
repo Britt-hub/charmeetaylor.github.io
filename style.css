@@ -1,0 +1,72 @@
+body{
+
+font-family:'Poppins', sans-serif;
+margin:0;
+color:white;
+
+background: linear-gradient(
+45deg,
+#D60270,
+#9B4F96,
+#0038A8
+);
+
+background-size:400% 400%;
+animation:gradient 10s ease infinite;
+
+}
+
+@keyframes gradient{
+
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+
+}
+
+header{
+
+text-align:center;
+padding:80px 20px;
+
+}
+
+h1{
+
+font-size:60px;
+margin:0;
+
+}
+
+.bio{
+
+max-width:800px;
+margin:auto;
+padding:40px;
+text-align:center;
+
+}
+
+.work{
+
+padding:40px;
+text-align:center;
+
+}
+
+.card{
+
+background:rgba(255,255,255,0.15);
+padding:30px;
+margin:20px auto;
+max-width:400px;
+border-radius:20px;
+
+}
+
+footer{
+
+text-align:center;
+padding:40px;
+
+}

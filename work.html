@@ -1,107 +1,130 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Charmeé's Work</title>
+<title>Work | Charmeé Taylor</title>
 
 <link rel="stylesheet" href="style.css">
-
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
 <nav class="navbar">
+  <div class="logo">Charmeé Taylor ✨</div>
 
-<div class="logo">Charmeé Taylor ✨</div>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="work.html">Work</a></li>
+  </ul>
 
-<ul class="nav-links">
-
-<li><a href="index.html">Home</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="work.html">Work</a></li>
-
-</ul>
-
-<div class="hamburger">&#9776;</div>
-
+  <div class="hamburger">&#9776;</div>
 </nav>
 
-<section class="work-section">
-  <div class="container">
+<!-- =========================
+ HERO / HEADER (EDITORIAL INTRO)
+========================= -->
+
+<section class="work-hero">
+  <div class="container work-hero-inner">
+
+    <span class="section-kicker">Archive</span>
 
     <h1 class="work-title">Projects & Creative Work</h1>
 
     <p class="work-subtitle">
-      Writing, storytelling, podcasts, and creative projects exploring identity, relationships, and queer joy.
+      Writing, podcasts, storytelling, and digital projects exploring identity, relationships, and queer joy.
     </p>
+
+  </div>
+</section>
+
+<!-- Curated work grid here -->
+
+<section class="featured-work">
+    <div class="container featured-work-inner">
+        <div class="featured-image">
+            <img src="assets/casting-call-icon-design.jpg" alt="Casting Call Project">
+            <div class="featured-text">
+                <span class="section-kicker">Featured Project</span>
+                <h3>Casting Call</h3>
+
+                <p>An open submission space for actors & creatives to participate in an original table read of a pilot script.</p>
+    
+                <p>
+                    Casting Call is a collaborative creative experiment cnetered on performace, access, adn storytelling.
+                    It invites actors into a shared creative space to explore identity, representation, and the art of storytelling.
+                </p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdcJ0BxlJTMzF35_26_5tTLe_6OEYycgVTcz_XyP0_Ql73qJQ/viewform" class="btn" target="_blank">Submit to Casting Call</a>
+            </div>
+    
+    </div>
+</section>
+
+<!-- =========================
+     CURATED WORK GRID
+========================= -->
+
+<section class="work-section" style="padding-top: 40px;">
+  <div class="container">
 
     <div class="work-grid">
 
+      <!-- CARD 1 -->
       <a href="https://www.partytrickpress.com/confessions-of-a-bisexual-product-page"
          target="_blank"
          class="work-card">
 
-        <img src="assets/bookcover.png" alt="Confessions of a Bisexual Book">
-
-        <div class="card-layover">
-          <h2>📓 Read My Book</h2>
-        </div>
+        <img src="assets/bookcover.png" alt="Confessions of a Bisexual">
 
         <div class="work-info">
-          <p>Interactive memoir for baby gays, late bloomers, and bi babes figuring it out in real time.</p>
+          <h3>Confessions of a Bisexual</h3>
+          <p>Interactive memoir for baby gays and late bloomers navigating identity in real time.</p>
         </div>
 
       </a>
 
+      <!-- CARD 2 -->
       <a href="https://open.spotify.com/show/58x1b0WNbUo8FWXBKgL4Rs"
          target="_blank"
          class="work-card">
 
-        <img src="assets/thegoodpodcast.png" alt="Podcast">
-
-        <div class="card-layover">
-          <h2>🎧 Listen</h2>
-        </div>
+        <img src="assets/thegoodpodcast.png" alt="The Good Bi Podcast">
 
         <div class="work-info">
-          <p>The Good Bi Podcast: conversations about identity, relationships, and queer joy.</p>
+          <h3>The Good Bi Podcast</h3>
+          <p>Conversations about identity, relationships, and queer joy.</p>
         </div>
 
       </a>
 
+      <!-- CARD 3 -->
       <a href="https://www.instagram.com/bi_astrology/"
          target="_blank"
          class="work-card">
 
-        <img src="assets/instagramlogo.png" alt="Instagram">
-
-        <div class="card-layover">
-          <h2>📱 My IG</h2>
-        </div>
+        <img src="assets/2BiFlagCharmee.JPG" alt="Bi Astrology Instagram">
 
         <div class="work-info">
-          <p>Bi Astrology: astrology through a bisexual lens.</p>
+          <h3>Bi Astrology</h3>
+          <p>Astrology through a bisexual lens — humor, identity, and culture.</p>
         </div>
 
       </a>
 
+      <!-- CARD 4 -->
       <a href="https://form.jotform.com/260615444934055"
          target="_blank"
          class="work-card">
 
-        <img src="assets/castingcall.png" alt="Submissions">
-
-        <div class="card-layover">
-          <h2>🎬 Casting Call</h2>
-        </div>
+        <img src="assets/casting-call-icon-design.jpg" alt="Casting Call">
 
         <div class="work-info">
+          <h3>Casting Call</h3>
           <p>Submit for table read of an original pilot script.</p>
         </div>
 
@@ -112,14 +135,13 @@
   </div>
 </section>
 
+<!-- FOOTER -->
+
 <footer>
-
-© 2026 Charmeé Taylor
-
+  © 2026 Charmeé Taylor
 </footer>
 
 <script src="script.js"></script>
 
 </body>
-
 </html>
